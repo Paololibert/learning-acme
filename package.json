@@ -4,7 +4,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build":"prisma generate && prisma migrate deploy && next build"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
